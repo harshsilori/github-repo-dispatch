@@ -1,8 +1,6 @@
 name: Repository Dispatch
 on:
   repository_dispatch:
-        types: [opened, deleted]
-
 
 jobs:
   build:
