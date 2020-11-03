@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: 'echo "field: ${{ github.event.client_payload.bar }}"'
-      - run: 'echo "payload: ${{ toJson(github.event.client_payload) }}"'
+      - run: 'echo "field2: ${{ github.event.client_payload.baz }}"'
+      - run: 'echo "payload2: ${{ toJson(github.event.client_payload) }}"'
       - run: echo unsuccessfull
         if: github.event.action == 'baz'
