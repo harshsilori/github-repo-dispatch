@@ -1,5 +1,5 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'client payload name'
+description: 'get client payload name'
 inputs:
   client-payload:  # id of input
     description: 'name of client payload'
